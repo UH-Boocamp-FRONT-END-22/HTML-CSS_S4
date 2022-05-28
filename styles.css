@@ -1,10 +1,217 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+header,
+.enlacesextra,
+.modelos,
+.footer-enlaces,
+.copy,
+.video,
+.iconos {
+  width: 70vw;
+  margin: auto;
 }
 
+footer {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(214, 214, 214);
+  padding-top: 20px;
+}
 
+/* banner con nav bar y hero */
+
+#banner {
+  background-image: url("assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+}
+
+header {
+  display: flex;
+  max-height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+header li {
+  margin-left: 35px;
+}
+
+header img {
+  margin-left: 35px;
+  height: 100%;
+  width: 18%;
+}
+
+.nav-bar__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  width: 100vw;
+  height: 70vh;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.hero p {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.hero a {
+  background-color: rgb(21, 115, 255);
+  color: white;
+  text-decoration: none;
+  padding: 1rem 8rem 1rem 8rem;
+}
+
+#hero-a {
+  margin: 50px 0 50px 0;
+}
+
+#hero-contenido {
+  margin-left: 4rem;
+}
+
+/* catálogo */
+
+.catalog {
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+
+.catalog h2 {
+  color: gray;
+  font-size: 1em;
+}
+
+.models {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.models li {
+  margin-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.models-hl {
+  font-weight: bold;
+  border-bottom: 3px solid rgb(67, 137, 243);
+  font-size: 2em;
+}
+
+.cars-li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car {
+  width: 25%;
+}
+
+.car img {
+  width: 300px;
+}
+
+#car-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+/* servicios */
+
+.services {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.services img {
+    width: 300px;
+}
+
+.services ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.services li {
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  width: 23%;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* videos e iconos del final */
+
+.car a::before,
+.services a::before,
+.video a::before {
+  content: "> ";
+}
+
+.car a,
+.services a,
+.video a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.video,
+.iconos {
+  display: flex;
+}
+.video div {
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+}
+
+.video img,
+.video iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.iconos {
+  padding: 75px 0 75px 0;
+}
+
+.iconos div {
+  width: 20%;
+  background-color: rgb(240, 238, 238);
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}

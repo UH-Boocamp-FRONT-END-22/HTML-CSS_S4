@@ -6,285 +6,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>S4 - home BMW</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/9477666a79.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header id="home">
-
-      <!-- nav bar -->
-      <div class="nav-bar">
-        <div class="nav-bar__menu">
-            <ul>
-                <a href="">Modelos</a> 
-                <a href="">Promociones</a>
-                <a href="">Servicios</a>
-                <a href="">Universo BMW</a>
-            </ul>
-        </div>
-        <div class="nav-bar__buttons">
-            <ul>
-                <li>
-                    <input type="button" value="search">
-                </li>
-
-                <li>
-                    <input type="button" value="users">
-                </li>
-
-                <li>
-                    <input type="button" value="ubication">
-                </li>
-            </ul>
-        </div>
-        <div class="nav-bar__logo">
-            <img src="" alt="logo">
-        </div>
-      </div>
-
-      <!-- banner -->
-      <div class="banner"></div>
-
-      <!-- text & button -->
-      <div class="banner-info">
-        <div class="banner-info__text">
-            <h1>TU BMW CON DISPONIBILIDAD INMEDIATA</h1>
-            <h3>VEHÍCULOS NUEVOS EN STOCK</h3>
-        </div>
-        <div class="banner-info__button">
-            <input type="button" value="DESCÚBRELO">
-        </div>
-      </div>
-
-    </header>
-
-    <section id="cars">
-
-      <!-- cars nav bar -->
-      <div class="car-nav">
+    <div id="banner">
+      <header>
+        <nav>
           <ul>
-              <li>
-                <h3>Cabrio</h3>
-              </li>
-              <li>
-                <h3>Berlina</h3>
-              </li>
-              <li>
-                <h3>Compacto</h3>
-              </li>
-              <li>
-                <h3>Gran Turismo</h3>
-              </li>
+            <li>Modelos</li>
+            <li>Promociones</li>
+            <li>Servicios</li>
+            <li>Universo BMW</li>
           </ul>
-      </div>
+        </nav>
+        <div class="nav-bar__buttons">
+          <ul>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li><i class="fa-solid fa-user"></i></li>
+            <li><i class="fa-solid fa-location-dot"></i></li>
+          </ul>
+          <img src="assets/logo.jpg" alt="" />
+        </div>
+      </header>
+      <section class="hero">
+        <div id="hero-contenido">
+          <h1>TU BMW CON DIPONIBILIDAD INMEDIATA</h1>
+          <p>VEHICULOS NUEVOS EN STOCK</p>
+          <div id="hero-a"><a href="#">Descúbrelo</a></div>
+        </div>
+      </section>
+    </div>
 
-      <!-- cars cards -->
-      <div class="cars-cards-box">
+    <section class="catalog">
+      <h2>Series</h2>
 
-        <!-- card 1 -->
-        <div class="cars-cards">
-          <div class="cars-cards__img">
-              <img src="" alt="car1">
-          </div>
-          <div class="cars-cards__text">
-              <h4>MODELO</h4>
-              <h5>PRECIO</h5>
-              <ul>
-                  <li>
-                      <input type="button" value="Configurar">
-                  </li>
-                  <li>
-                      <input type="button" value="Explorar">
-                  </li>
-              </ul>
+      <ul class="models">
+        <li class="models-hl">Cabrio</li>
+        <li>Berlina</li>
+        <li>Compacto</li>
+        <li>Coupe</li>
+        <li>BWM i</li>
+        <li>Todocamino</li>
+        <li>Touring</li>
+      </ul>
+      <div class="cars-li">
+        <div class="car">
+          <img src="assets/modelo-bmw-4.png" alt="" />
+          <div id="car-detail">
+            <h3>BWM</h3>
+            <p>Desde 35.000€</p>
+            <a href="#">Configurar</a>
+            <a href="#">Explorar</a>
           </div>
         </div>
-
-        <!-- card 2 -->
-        <div class="cars-cards">
-            <div class="cars-cards__img">
-                <img src="" alt="car2">
-            </div>
-            <div class="cars-cards__text">
-                <h4>MODELO</h4>
-                <h5>PRECIO</h5>
-                <ul>
-                    <li>
-                        <input type="button" value="Configurar">
-                    </li>
-                    <li>
-                        <input type="button" value="Explorar">
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- card 3 -->
-        <div class="cars-cards">
-          <div class="cars-cards__img">
-              <img src="" alt="car3">
-          </div>
-          <div class="cars-cards__text">
-              <h4>MODELO</h4>
-              <h5>PRECIO</h5>
-              <ul>
-                  <li>
-                      <input type="button" value="Configurar">
-                  </li>
-                  <li>
-                      <input type="button" value="Explorar">
-                  </li>
-              </ul>
+        <div class="car">
+          <img src="assets/modelo-bmw-4.png" alt="" />
+          <div id="car-detail">
+            <h3>BMW</h3>
+            <p>Desde 40.000€</p>
+            <a href="#">Configurar</a>
+            <a href="#">Explorar</a>
           </div>
         </div>
-
-        <!-- card 4 -->
-        <div class="cars-cards">
-            <div class="cars-cards__img">
-                <img src="" alt="car4">
-            </div>
-            <div class="cars-cards__text">
-                <h4>MODELO</h4>
-                <h5>PRECIO</h5>
-                <ul>
-                    <li>
-                        <input type="button" value="Configurar">
-                    </li>
-                    <li>
-                        <input type="button" value="Explorar">
-                    </li>
-                </ul>
-            </div>
-          </div>
-
-    </section>
-
-    <section id="services">
-
-      <!-- services cards -->
-
-      <div class="services-cards-box">
-
-        <!-- card 1 -->
-        <div class="services-cards">
-          <div class="services-cards__img">
-              <img src="" alt="service1">
-          </div>
-          <div class="services-cards__text">
-              <h3>SERVICIO</h3>
-              <h5>DESCRIPCIÓN</h5>
-              <input type="button" value="Contacta en directo">
+        <div class="car">
+          <img src="assets/modelo-bmw-4.png" alt="" />
+          <div id="car-detail">
+            <h3>BWM</h3>
+            <p>Desde 50.000€</p>
+            <a href="#">Configurar</a>
+            <a href="#">Explorar</a>
           </div>
         </div>
-
-        <!-- card 2 -->
-        <div class="services-cards">
-            <div class="services-cards__img">
-                <img src="" alt="service2">
-            </div>
-            <div class="services-cards__text">
-                <h3>SERVICIO</h3>
-                <h5>DESCRIPCIÓN</h5>
-                <input type="button" value="Ir al buscador">
-            </div>
-          </div>
-
-        <!-- card 3 -->
-        <div class="services-cards">
-            <div class="services-cards__img">
-                <img src="" alt="service3">
-            </div>
-            <div class="services-cards__text">
-                <h3>SERVICIO</h3>
-                <h5>DESCRIPCIÓN</h5>
-                <input type="button" value="Lo quiero">
-            </div>
-          </div>
-
-        <!-- card 4 -->
-        <div class="services-cards">
-            <div class="services-cards__img">
-                <img src="" alt="service4">
-            </div>
-            <div class="services-cards__text">
-                <h3>SERVICIO</h3>
-                <h5>DESCRIPCIÓN</h5>
-                <input type="button" value="Pida Cita Online">  
-            </div>
-          </div>
-
-      <!-- services videos -->
-
-      <div class="services-videos-box">
-
-        <!-- video 1 -->
-        <div class="services-videos">
-          <div class="services-videos__source">
-              <video src=""></video>
-          </div>
-          <div class="services-videos__text">
-              <h3>Categorías Vehículos BMW</h3>
-              <input type="button" value="Más información">
-          </div>
-        </div>
-
-        <!-- video 2 -->
-        <div class="services-videos">
-          <div class="services-videos__media">
-              <video src=""></video>
-          </div>
-          <div class="services-videos__text">
-              <h2>Todo BMW en YouTube</h2>
-              <input type="button" value="YouTube BMW España">
+        <div class="car">
+          <img src="assets/modelo-bmw-4.png" alt="" />
+          <div id="car-detail">
+            <h3>BMW</h3>
+            <p>Desde 60.000€</p>
+            <a href="#">Configurar</a>
+            <a href="#">Explorar</a>
           </div>
         </div>
       </div>
-
     </section>
 
-    <section id="other-services">
-      
-        <!-- other services boxes -->
-        <!-- box 1 -->
-        <div class="other-services-box">
-            <div class="other-services__img">
-                <img src="" alt="config">
-            </div>
-            <div class="other-services__text">
-                <h5>Configurador</h5>
-            </div>
-        </div>
-
-        <!-- box 2 -->
-        <div class="other-services-box">
-            <div class="other-services__img">
-                <img src="" alt="catalogs">
-            </div>
-            <div class="other-services__text">
-                <h5>Catálogos</h5>
-            </div>
-        </div>
-
-        <!-- box 3 -->
-        <div class="other-services-box">
-            <div class="other-services__img">
-                <img src="" alt="ofert">
-            </div>
-            <div class="other-services__text">
-                <h5>Pide una oferta</h5>
-            </div>
-        </div>
-
-        <!-- box 4 -->
-        <div class="other-services-box">
-            <div class="other-services__img">
-                <img src="" alt="contact">
-            </div>
-            <div class="other-services__text">
-                <h5>Contacto</h5>
-            </div>
-        </div>
-
+    <section class="services">
+      <ul>
+        <li>
+          <img src="assets/xd.png" alt="" />
+          <h2>servicio 1</h2>
+          <p>servicio 1</p>
+          <a href="">ALV</a>
+        </li>
+        <li>
+          <img src="assets/xd.png" alt="" />
+          <h2>servicio 2</h2>
+          <p>servicio 2</p>
+          <a href="">ALV</a>
+        </li>
+        <li>
+          <img src="assets/xd.png" alt="" />
+          <h2>servicio 3</h2>
+          <p>servicio 3</p>
+          <a href="">ALV</a>
+        </li>
+        <li>
+          <img src="assets/xd.png" alt="" />
+          <h2>servicio 4</h2>
+          <p>servicio 4</p>
+          <a href="">ALV</a>
+        </li>
+      </ul>
     </section>
 
-    <footer id="footer"></footer>
+    <section class="video">
+      <div>
+        <img src="assets/outer.jpg" alt="" />
+        <h2>Categorias Vehiculos BWM</h2>
+        <a href="#">Más información</a>
+      </div>
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/0XljysJW66s"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h2>Todo BMW en Youtube</h2>
+        <a href="#">Youtube BMW España</a>
+      </div>
+    </section>
+
+    <section class="iconos">
+      <div>
+        <i class="fa-solid fa-car fa-xl"></i>
+        <a href="#">Configurador</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-note-sticky fa-xl"></i>
+        <a href="#">Catálogos</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-comment-dots fa-xl"></i>
+        <a href="#">Pide una oferta</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-address-book fa-xl"></i>
+        <a href="#">Contacto</a>
+      </div>
+    </section>
+
+    <footer>
+      <h1>ESTO ES EL FOOTER</h1>
+      <h3>Hecho por Dani Martínez</h3>
+    </footer>
   </body>
 </html>
